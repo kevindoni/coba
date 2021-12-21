@@ -381,7 +381,7 @@ wget -O swap "https://raw.githubusercontent.com/kevindoni/coba/main/kebu/swapkvm
 wget -O user-limit "https://raw.githubusercontent.com/kevindoni/coba/main/kebu/user-limit.sh"
 wget -O auto-reboot "https://raw.githubusercontent.com/kevindoni/coba/main/kebu/auto-reboot.sh"
 wget -O running "https://raw.githubusercontent.com/kevindoni/coba/main/men/running.sh"
-wget -O update "https://raw.githubusercontent.com/kevindoni/coba/main/kota/update.sh.x"
+wget -O update "https://raw.githubusercontent.com/kevindoni/coba/main/kota/update.sh"
 wget -O cfd "https://raw.githubusercontent.com/kevindoni/coba/main/kebu/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/kevindoni/coba/main/kebu/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/kevindoni/coba/main/kebu/cfh.sh"
