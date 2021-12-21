@@ -24,8 +24,8 @@ wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/${
 #Install Script Websocket-SSH Python
 cd
 cd /home/
-chod +x admin
 mkdir admin
+chod +x admin
 cd
 cd /usr/local/bin/
 wget -O /usr/local/bin/ws-openssh https://raw.githubusercontent.com/${GitUser}/coba/main/kebu/${namafolder}/ws-openssh && chmod +x /home/admin/ws-openssh
