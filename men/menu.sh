@@ -34,7 +34,7 @@ IPVPS=$(curl -s ipinfo.io/ip )
 	tmemo=$( df -h | awk 'FNR == 4 {print $4}' )
 	swap=$( free -m | awk 'NR==4 {print $2}' )
 	up=$(uptime|awk '{ $1=$2=$(NF-6)=$(NF-5)=$(NF-4)=$(NF-3)=$(NF-2)=$(NF-1)=$NF=""; print }')
-	echo -e " $bl ║ \e[032;1mCPU Model      :\e[0m$bd $cname  "
+	echo -e " $bl ║ \e[032;1mCPU Model              :\e[0m$bd $cname  "
 	echo -e " $bl ║ \e[032;1mNumber Of Cores        :\e[0m$bd $cores"
 	echo -e " $bl ║ \e[032;1mCPU Frequency          :\e[0m$bd $freq MHz"
 	echo -e " $bl ║ \e[032;1mTotal RAM              :\e[0m$bd $tram MB"
@@ -43,7 +43,7 @@ IPVPS=$(curl -s ipinfo.io/ip )
 	echo -e " $bl ║ \e[032;1mTotal Memory Available :\e[0m$bd $tmemo"
 	echo -e " $op ║ \e[032;1mSystem Uptime          :\e[0m$bd $up H"
 	echo -e " $op ║ \e[032;1mISP Name               :\e[0m$bd $ISP"
-    echo -e " $op ║ \e[032;1mIP Vps                 :\e[0m$bd $IPVPS"
+    	echo -e " $op ║ \e[032;1mIP Vps                 :\e[0m$bd $IPVPS"
 	echo -e " $op ║ \e[032;1mCity                   :\e[0m$bd $CITY"
 	echo -e " $op ║ \e[032;1mTime                   :\e[0m$bd $WKT                    ╥"
 echo -e  "  ╠════════════════════════════════════════════════════════════╣" | lolcat
