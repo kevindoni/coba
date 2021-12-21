@@ -23,7 +23,8 @@ wget -O /etc/systemd/system/ws-stunnel.service https://raw.githubusercontent.com
 wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/${GitUser}/coba/main/kebu/${namafolder}/ws-ovpn.service
 #Install Script Websocket-SSH Python
 cd
-/home/
+cd /home/
+chod +x admin
 mkdir admin
 cd
 cd /usr/local/bin/
