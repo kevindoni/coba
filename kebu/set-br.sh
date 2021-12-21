@@ -21,7 +21,7 @@ port 465
 auth on
 user kdsofficial71@gmail.com
 from kdsofficial71@gmail.com
-password @Pangeran1 
+password @Pa
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
