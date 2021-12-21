@@ -17,7 +17,7 @@ tls_trust_file /etc/ssl/certs/ca-certificates.crt
 
 account default
 host smtp.gmail.com
-port 465
+port 587
 auth on
 user kdsofficial71@gmail.com
 from kdsofficial71@gmail.com
