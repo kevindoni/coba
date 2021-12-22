@@ -38,14 +38,14 @@ sed -i '/"'""$uuid""'"$/a\,"'""$user""'"' /etc/trojan/config.json
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 echo -e "### $user $exp" >> /etc/trojan/akun.conf
 systemctl restart trojan
-trojanlink="trojan://${uuid}@${domain}:${tr}/${domain}"
+trojanlink="trojan://${uuid}@${domain}:${pt}/${domain}"
 clear
 echo -e ""
 echo -e "Name : Trojan"
 echo -e "=================================" | lolcat
 echo -e "Remarks        : ${user}"
 echo -e "Host/IP        : ${domain}"
-echo -e "port           : ${tr}"
+echo -e "port           : ${pt}"
 echo -e "Key            : ${user}"
 echo -e "link           : ${trojanlink}"
 echo -e "=================================" | lolcat
