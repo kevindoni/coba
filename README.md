@@ -16,6 +16,6 @@ oleh     : KEVIN DONI <br>
 whatsapp : wa.me/082243698398 <br>
 telegram : t.me/kevindoni
 # Fitur
-[![Watch the video](vd.mp4)
+[![Watch the video](vd.gif)
 
 ![Screenshot](20211222_150713.jpg)
