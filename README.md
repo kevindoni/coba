@@ -15,3 +15,7 @@ rm -rf setup.sh && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.i
 oleh     : KEVIN DONI <br>
 whatsapp : wa.me/082243698398 <br>
 telegram : t.me/kevindoni
+# Fitur
+[![Watch the video] (https://raw.githubusercontent.com/kevindoni/coba/main/vd.mp4)
+
+![Screenshot] (https://raw.githubusercontent.com/kevindoni/coba/main/20211222_150713.jpg)
